@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script rel="text/javascript" src="conversãotemperatura.js"></script>
+    <title>Ex01</title>
+</head>
+<body>
+    <form style="border: 2px rgb(11, 11, 63); background-color: rgb(197, 255, 255); padding: 3px; text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    
+    Fahrenheit: <input type="text"
+    name="ftemp"
+    size="7"
+
+    onchange="converterTemp('ftoc')">
+
+    Celsius: <input type="text"
+    name="ctemp"
+    size="7"
+
+    onchange="converterTemp('ctof')">
+
+    Kelvin: <input type="text"
+    name="ktemp"
+    size="7"
+
+    onchange="converterTemp('ktof')">
+    <br>
+    
+    <input type="button"
+    value="Limpar"
+    onclick="clearAll();">
+</form>
+</body>
+</html>
