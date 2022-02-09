@@ -1,0 +1,64 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #1E90FF, #87CEEB);
+    margin: 0 auto;
+}
+
+h1{
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    margin:30px;
+    color:rgb(0, 92, 122);
+}
+
+form{
+    font-size: 12px;
+    background-color: rgb(161, 210, 255);
+    max-width: 500px;
+    border-radius: 5px; 
+    box-shadow: 10px 10px 10px rgb(0,0,255);
+    padding: 10px;
+    margin: 0 auto;
+}
+
+input, textarea{
+    width: 400px;
+    padding: 10px;
+    color: rgb(0,0,0);
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    background-color: rgb(191, 240, 247);
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus{
+    box-shadow: 5px 0px 9px rgb(1, 75, 121);
+    background-color: rgb(185, 228, 255);
+    color:rgb(0,0,0);
+    font-weight: bold;
+}
+
+.enviar{
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid;
+    color:rgb(0,0,0)
+}
+
+textarea{
+    width: 400px;
+    height:120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+
+form label{
+    margin-left: 20px;
+    color: rgb(0, 3, 43);
+    font-weight: bold;
+}
